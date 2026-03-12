@@ -1,0 +1,50 @@
+# Virtual Environment
+nlp-env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Uploads
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Redundant/Testing files
+debug_keywords.py
+nlp_pipeline.py
+nlp_pipeline_alternative.py
+test_all_hybrid.py
+test_all_threats.py
+test_all_threats_final.py
+test_api_comprehensive.py
+test_phishing_hybrid.py
+training_log.txt
+
+# Redundant Documentation
+DEPLOYMENT_SUMMARY.md
+FINAL_SUMMARY.md
+FINAL_XSS_REPORT.txt
+IMPLEMENTATION_COMPLETE.md
+XSS_DETECTION_UPDATE.md
+XSS_THREAT_TYPE_UPDATE.md
+
+# Temp files
+*.xlsx
+Tweets_with_Confidence_Scores.xlsx
+new tweets.xlsx
